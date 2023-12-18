@@ -1,0 +1,29 @@
+.home__main{
+    margin: 40px auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.home__aside{
+    width: 24%;
+    padding: 20px;
+    background: #F6F0E0;
+    min-height: 420px;
+}
+.home__aside h2{
+    color: #000000;
+    font-size: 35px;
+    margin: 0;
+}
+.home__aside p, .home__box p{
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.home__box{
+    padding: 20px;
+    width: 32%;
+    background: #CCC8B3;
+}

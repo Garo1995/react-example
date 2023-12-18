@@ -1,0 +1,33 @@
+.header__main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 30px;
+    background: #000;
+}
+.header__logo{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: unset;
+    text-transform: uppercase;
+
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 35px;
+}
+.header__menu li a{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: unset;
+
+}
+.header__menu li a:hover{
+    text-decoration: unset;
+
+}
